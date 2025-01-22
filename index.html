@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Amigo Secreto - Oracle ONE</title>
+  </head>
+  <body>
+    <header>
+      <h2>Sortear Amigos Secreto</h2>
+    </header>
+    <main>
+      <form>
+        <label for="titulo">Titulo</label>
+        <input id="titulo" type="text" placeholder="Adicione um Titulo" />
+        <label for="participantes">Participantes</label>
+        <textarea
+          placeholder="Adicione os participantes separador por virgula ex: Joao,Maria,Cesar"
+          name="participantes"
+          id="participantes"
+          rows="10"
+        ></textarea>
+        <button id="botaoEnviar">sortear</button>
+      </form>
+
+      <div id="nomeSorteado"></div>
+
+      <div class="todasListas">
+        <h3>Confira todas as listas</h3>
+        <ul id="ulTodasAsListas"></ul>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="/scripts.js"></script>
+  </body>
+</html>
