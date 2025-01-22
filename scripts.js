@@ -23,7 +23,6 @@ function adicionarParticipantes(event) {
     let listaNomes = nomeParticipantes.value.split(",");
     let nomeSorteado = parseInt(Math.random() * listaNomes.length);
   
-    //   console.log(`o nome sorteado foi ${listaNomes[nomeSorteado]}`);
   
     const detalhesLista = new ListasSorteadas(
       nomeTitulo.value,
@@ -33,7 +32,6 @@ function adicionarParticipantes(event) {
   
     containerNomeSorteado.innerHTML = `<h3>O amigo secreto sorteado foi: ${detalhesLista.nomeSorteado}</h3>`;
   
-    console.log(detalhesLista);
   
     todasAsListas.push(detalhesLista);
   
