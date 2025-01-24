@@ -4,7 +4,7 @@ Uma aplicação web que ajuda você a organizar sorteios de amigo secreto atribu
 
 ## 🔗 Deploy
 
-Aplicação disponível em: [Amigo Secreto](https://amigo-secreto-oracle-one.vercel.app)
+Aplicação disponível em: [Amigo Secreto](hhttps://amigo-secreto-rho-mauve.vercel.app/)
 
 ## 🚀 Funcionalidades
 
